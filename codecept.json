@@ -1,0 +1,22 @@
+{
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "https://www.photoshelter.com/",
+      "browser": "chrome",
+      "restart": false,
+      "windowSize": "1100x600"
+    },
+    "Button": {
+      "require": "./button_helper.js"
+    }
+  },
+  "include": {
+    "I": "./steps_file.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "codeceptjs-photoshelter"
+}
