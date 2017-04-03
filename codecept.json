@@ -8,9 +8,6 @@
       "browser": "chrome",
       "restart": false,
       "windowSize": "1100x600"
-    },
-    "Button": {
-      "require": "./button_helper.js"
     }
   },
   "include": {
