@@ -8,7 +8,8 @@ Scenario('Upload an image', (I) => {
   I.fillField('U_EMAIL', 'Kemail_test3@gmail.com');
   I.fillField('U_PASSWORD', 'mypassword_test');
   I.click('sign in');
-  I.wait('5');
+  I.wait('3');
+  //large page, needs extra time to load. Will fail with <2s
   I.click('//*[@id="navbar"]/ul[1]/li[3]');
   //xpath for upload button is different on premium and trial user profiles
   I.wait('1');
@@ -18,7 +19,8 @@ Scenario('Upload an image', (I) => {
     I.fillField('NAME', new Date().toLocaleDateString('en-US'));
     I.pressKey('Enter');
   });
-  I.attachFile('//*[@id="ubFile"]/div/input','image/Karolis.gif');
+  I.attachFile('#ubFile > div > input[type="file"]','image/Karolis.gif');
+  //Only CSS locator allowed for attachFile in Nightmare helper
   I.wait('5');
   I.see('Upload completed')
 });

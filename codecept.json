@@ -3,9 +3,9 @@
   "timeout": 10000,
   "output": "./output",
   "helpers": {
-    "WebDriverIO": {
+    "Nightmare": {
       "url": "https://www.photoshelter.com/",
-      "browser": "chrome",
+      
       "windowSize": "1100x600"
     }
   },
