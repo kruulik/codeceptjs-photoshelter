@@ -1,3 +1,4 @@
+const helpers = require('./helpers.js');
 
 Feature('Upload');
 
@@ -5,8 +6,8 @@ Scenario('Upload an image', (I) => {
 
   I.amOnPage('/mem/home/');
   //get dyanic account info from page object
-  I.fillField('U_EMAIL', 'Kemail_test3@gmail.com');
-  I.fillField('U_PASSWORD', 'mypassword_test');
+  I.fillField('U_EMAIL', helpers.user);
+  I.fillField('U_PASSWORD', helpers.pword);
   I.click('sign in');
   I.wait('3');
   //large page, needs extra time to load. Will fail with <2s

@@ -5,8 +5,8 @@
   "helpers": {
     "Nightmare": {
       "url": "https://www.photoshelter.com/",
-      
-      "windowSize": "1100x600"
+      "windowSize": "1100x600",
+      "show": false
     }
   },
   "include": {
