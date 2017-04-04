@@ -4,7 +4,7 @@ Feature('Upload');
 Scenario('test something', (I) => {
 
   I.amOnPage('http://www.photoshelter.com/mem/home/');
-  I.fillField('U_EMAIL', 'Kemail_test1@gmail.com');
+  I.fillField('U_EMAIL', 'Kemail_test2@gmail.com');
   I.fillField('U_PASSWORD', 'mypassword_test');
   I.click('sign in');
   I.wait('5');

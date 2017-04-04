@@ -5,9 +5,9 @@ Scenario('Sign up now', function* (I) {
   I.click('.signupCta');
   var form = yield I.grabAttributeFrom('//*[@id="signupModal"]/div/div[2]/div/div/div[2]/iframe', 'src');
   I.amOnPage(form);
-  I.fillField('U_FIRST_NAME', 'Ktest1');
-  I.fillField('U_LAST_NAME', 'Ktest1');
-  I.fillField('U_EMAIL', 'Kemail_test1@gmail.com');
+  I.fillField('U_FIRST_NAME', 'Ktest2');
+  I.fillField('U_LAST_NAME', 'Ktest2');
+  I.fillField('U_EMAIL', 'Kemail_test2@gmail.com');
   I.fillField('U_PASSWORD', 'mypassword_test');
   I.click('.next');
   I.wait('5');

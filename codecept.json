@@ -11,8 +11,7 @@
     }
   },
   "include": {
-    "I": "./steps_file.js",
-    "signupPage": "./pages/signup.js"
+    "I": "./steps_file.js"
   },
   "bootstrap": false,
   "mocha": {},
