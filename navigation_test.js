@@ -7,6 +7,8 @@ Scenario('See big yellow button', (I) => {
 
 Scenario('See main navigation', (I) => {
   I.amOnPage('/');
+  //main navigation hidden on smaller screens, hence the initial resize. 
+  //login is not part of main nav; selecting parent #HeaderGlobal instead.
   within('//*[@id="HeaderGlobal"]', function () {
     I.see('FEATURES');
     I.see('TEMPLATES');

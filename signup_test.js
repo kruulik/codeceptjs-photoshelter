@@ -6,7 +6,7 @@ Scenario('Sign up now', function* (I) {
   I.amOnPage('/');
   I.click('.signupCta');
   I.wait('1');
-  //hacky way to access dom node
+  //hacky way to access dom node. 
   var form = yield I.grabAttributeFrom('//*[@id="signupModal"]/div/div[2]/div/div/div[2]/iframe', 'src');
   I.wait('1');
   I.amOnPage(form);
