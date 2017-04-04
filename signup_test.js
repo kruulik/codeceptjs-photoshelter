@@ -22,6 +22,4 @@ Scenario('Sign up now', function* (I) {
   I.wait('2');
   //"Get Started Now" has been replaced with "Go To My Account". Checking for a call to link instead. 
   I.click('body > div.content > div.m11.m11-a > div > a')
-  
-
 });

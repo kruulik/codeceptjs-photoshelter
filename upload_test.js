@@ -3,7 +3,6 @@ const helpers = require('./helpers.js');
 Feature('Upload');
 
 Scenario('Upload an image', (I) => {
-
   I.amOnPage('/mem/home/');
   //get dyanic account info from page object
   I.fillField('U_EMAIL', helpers.user);
