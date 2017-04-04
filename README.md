@@ -38,7 +38,7 @@ Use [CodeceptJS](http://codecept.io/) to accomplish a series of steps on [Photos
 7. Click “Get Started Now”
 
 
-### Bonus
+### Upload
 
 1. Visit [Photoshelter's member area](http://www.photoshelter.com/mem/home/)
 2. Click “Upload”

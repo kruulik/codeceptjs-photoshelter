@@ -3,10 +3,10 @@
   "timeout": 10000,
   "output": "./output",
   "helpers": {
-    "WebDriverIO": {
+    "Nightmare": {
       "url": "https://www.photoshelter.com/",
-      "browser": "chrome",
-      "windowSize": "1100x600"
+      "windowSize": "1100x600",
+      "show": false
     }
   },
   "include": {
