@@ -4,7 +4,7 @@ Feature('Upload');
 Scenario('Upload an image', (I) => {
 
   I.amOnPage('/mem/home/');
-  //dyanic account info
+  //get dyanic account info from page object
   I.fillField('U_EMAIL', 'Kemail_test3@gmail.com');
   I.fillField('U_PASSWORD', 'mypassword_test');
   I.click('sign in');

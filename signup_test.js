@@ -1,8 +1,12 @@
+
+
 Feature('Signup');
 
 Scenario('Sign up now', function* (I) {
   I.amOnPage('/');
+  I.wait('1');
   I.click('.signupCta');
+  //hacky way to access dom node
   var form = yield I.grabAttributeFrom('//*[@id="signupModal"]/div/div[2]/div/div/div[2]/iframe', 'src');
   I.amOnPage(form);
   I.fillField('U_FIRST_NAME', 'Ka_test');
