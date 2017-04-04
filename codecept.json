@@ -6,7 +6,6 @@
     "WebDriverIO": {
       "url": "https://www.photoshelter.com/",
       "browser": "chrome",
-      
       "windowSize": "1100x600"
     }
   },
