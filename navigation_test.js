@@ -3,7 +3,8 @@ Feature('Navigation check');
 Scenario('See big yellow button', (I) => {
 
   I.amOnPage('https://www.photoshelter.com/');
-  I.see('SIGN UP NOW', 'signupCta');
+  I.wait('3');
+  I.see('SIGN UP NOW', '.signupCta');
 
 });
 

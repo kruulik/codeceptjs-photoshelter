@@ -1,10 +1,11 @@
 
 Feature('Upload');
 
-Scenario('test something', (I) => {
+Scenario('Upload an image', (I) => {
 
-  I.amOnPage('http://www.photoshelter.com/mem/home/');
-  I.fillField('U_EMAIL', 'Kemail_test2@gmail.com');
+  I.amOnPage('/mem/home/');
+  //dyanic account info
+  I.fillField('U_EMAIL', 'Kemail_test3@gmail.com');
   I.fillField('U_PASSWORD', 'mypassword_test');
   I.click('sign in');
   I.wait('5');
@@ -17,5 +18,7 @@ Scenario('test something', (I) => {
     I.fillField('NAME', new Date().toLocaleDateString('en-US'));
     I.pressKey('Enter');
   });
-  I.attachFile('//*[@id="ubFile"]/div/input','image/Karolis.gif')
+  I.attachFile('//*[@id="ubFile"]/div/input','image/Karolis.gif');
+  I.wait('5');
+  I.see('Upload completed')
 });
