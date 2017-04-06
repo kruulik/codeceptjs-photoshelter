@@ -8,11 +8,11 @@ Scenario('Upload an image', (I) => {
   I.fillField('U_EMAIL', helpers.user);
   I.fillField('U_PASSWORD', helpers.pword);
   I.click('sign in');
-  I.wait('3');
+  I.wait('5');
   //large page, needs extra time to load. Will fail with <2s
   I.click('//*[@id="navbar"]/ul[1]/li[3]');
   //xpath for upload button is different on premium and trial user profiles
-  I.wait('1');
+  I.wait('2');
   I.click('//*[@id="navbar"]/ul[1]/li[3]/ul/li[2]/a');
   I.wait('1');
   within('//*[@id="Dialog_ClcGal_Create"]', function(){
