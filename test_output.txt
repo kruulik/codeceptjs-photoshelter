@@ -1,7 +1,0 @@
-CodeceptJS v0.5.1
-Using test root "/Volumes/Snow Leopard/Users/karoliskrulis/CodeceptJS/codeceptjs-photoshelter"
-
-Upload --
- ✓ Upload an image in 34123ms
-
-  OK  | 1 passed   // 34s
