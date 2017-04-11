@@ -1,0 +1,26 @@
+{
+  "name": "codeceptjs-photoshelter",
+  "version": "1.0.0",
+  "description": "Photoshelter test",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "chai-as-promised": "^6.0.0",
+    "webdriverio": "^4.6.2",
+    "wdio-mocha-framework": "^0.5.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "codeceptjs run --steps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kruulik/codeceptjs-photoshelter.git"
+  },
+  "author": "Karolis Krulis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kruulik/codeceptjs-photoshelter/issues"
+  },
+  "homepage": "https://github.com/kruulik/codeceptjs-photoshelter#readme"
+}
