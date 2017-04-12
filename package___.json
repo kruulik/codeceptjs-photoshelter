@@ -1,0 +1,41 @@
+{
+  "name": "codeceptjs-photoshelter",
+  "version": "1.0.0",
+  "description": "basic test",
+  "main": "helpers.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-jquery": "^2.0.0",
+    "nightmare": "^2.10.0",
+    "nodemailer": "^4.0.0",
+    "nightmare-animated-gif": "^0.0.3",
+    "npm-run-all": "^4.0.2",
+    "prompt": "^1.0.0",
+    "run-all": "^1.0.1",
+    "sendmail": "^1.1.1",
+    "wdio-dot-reporter": "^0.0.8",
+    "wdio-json-reporter": "^0.2.1",
+    "wdio-junit-reporter": "^0.3.0",
+    "wdio-mocha-framework": "^0.5.9",
+    "wdio-phantomjs-service": "^0.2.2",
+    "webdriverio": "^4.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "codeceptjs run . navigation_test.js --steps > outputFile.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kruulik/codeceptjs-photoshelter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kruulik/codeceptjs-photoshelter/issues"
+  },
+  "homepage": "https://github.com/kruulik/codeceptjs-photoshelter#readme"
+}
