@@ -5,7 +5,7 @@
 1. Clone repo 
 2. Open __email-report.js__ in the root directory and change `to: 'karoliskrulis@gmail.com',` to the email where you would like to receive __report.json__
 3. Run 	`npm install-test`
-4. node will send report as an email attachment and open an interactive reprt in your default browser. 
+4. Node will send a report as an email attachment and open an interactive report in your default browser. 
 
 ## Challenge: 
 

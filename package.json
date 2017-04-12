@@ -6,7 +6,8 @@
   "devDependencies": {
     "codeceptjs": "^0.5.1",
     "mochawesome": "^2.0.4",
-    "nightmare": "^2.10.0"
+    "nightmare": "^2.10.0", 
+    "nightmare-upload": "^0.1.1"
   },
   "scripts": {
     "test": "codeceptjs run --steps --reporter mochawesome --reporter-options reportDir=output/reports,reportFilename=report; node email-report.js; opn output/reports/report.html"
