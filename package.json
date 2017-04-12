@@ -9,7 +9,7 @@
     "webdriverio": "^4.6.2"
   },
   "scripts": {
-    "test": "codeceptjs run . navigation_test.js --steps > outputFile.json"
+    "test": "codeceptjs run --steps | tee outputFile.json"
   },
   "author": "Krulis",
 
