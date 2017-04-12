@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "test",
   "dependencies": {},
-  "devDependencies": {  
-    "nodemailer": "^4.0.0",
-    "webdriverio": "^4.6.2",
+  "devDependencies": {
+    "wdio-json-reporter": "^0.2.1",
     "nightmare": "^2.10.0",
-    "wdio-mocha-framework": "^0.5.9",
-    "wdio-json-reporter": "^0.2.1"
+    "webdriverio": "^4.6.2"
   },
+
   "scripts": {
-    "test": "codeceptjs run . navigation_test.js --steps > outputFile.json",
-    "posttest": "node attachLog.js"
+    "test": "codeceptjs run . navigation_test.js --steps > outputFile.json"
   },
+
   "author": "Krulis",
+
   "license": "MIT"
 }
