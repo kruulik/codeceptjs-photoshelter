@@ -6,8 +6,9 @@
   "devDependencies": {
     "codeceptjs": "^0.5.1",
     "mochawesome": "^2.0.4",
-     "nodemailer": "^4.0.0",
+    "nodemailer": "^4.0.0",
     "nightmare": "^2.10.0",
+    "opn-cli": "^3.1.0",
     "nightmare-upload": "^0.1.1"
   },
   "scripts": {

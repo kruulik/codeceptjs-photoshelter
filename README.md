@@ -7,6 +7,10 @@
 3. Run 	`npm install-test`
 4. Node will send a report as an email attachment and open an interactive report in your default browser. 
 
+
+* test occasionally hands on "singup". ctrl+c and restart test
+
+
 ## Challenge: 
 
 Use [CodeceptJS](http://codecept.io/) to accomplish a series of steps on [Photoshelter's site](https://www.photoshelter.com/). 
