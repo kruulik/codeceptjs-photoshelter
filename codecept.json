@@ -6,7 +6,7 @@
     "Nightmare": {
       "url": "https://www.photoshelter.com/",
       "windowSize": "1100x600",
-      "show": false
+      "show": true
     }
   },
   "include": {
