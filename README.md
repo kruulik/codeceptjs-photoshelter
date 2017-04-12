@@ -2,7 +2,12 @@
 
 ## Setup
 
-Clone repo, cd to folder, run npm install-repo.
+1. Clone repo 
+2. open __email-report__ and within `mailOptions` change `to: 'karoliskrulis@gmail.com',` to the email where you woudl liek to receive __report.json__
+3. run 	`npm install-test`
+4. node will send report as an email attachment and open an interactive reprt in your default browser. 
+
+## Challenge: 
 
 Use [CodeceptJS](http://codecept.io/) to accomplish a series of steps on [Photoshelter's site](https://www.photoshelter.com/). 
 

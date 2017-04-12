@@ -5,13 +5,12 @@
   "dependencies": {},
   "devDependencies": {
     "codeceptjs": "^0.5.1",
-    "nightmare": "^2.10.0",
-    "webdriverio": "^4.6.2"
+    "mochawesome": "^2.0.4",
+    "nightmare": "^2.10.0"
   },
   "scripts": {
-    "test": "codeceptjs run --steps | tee outputFile.json"
+    "test": "codeceptjs run --steps --reporter mochawesome --reporter-options reportDir=output/reports,reportFilename=report; node email-report.js; opn output/reports/report.html"
   },
   "author": "Krulis",
-
   "license": "MIT"
 }

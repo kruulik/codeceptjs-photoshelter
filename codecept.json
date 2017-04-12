@@ -1,18 +1,22 @@
 {
   "tests": "./tests/*_test.js",
-  "timeout": 10000,
+  "timeout": 5000,
   "output": "./output",
   "helpers": {
     "Nightmare": {
       "url": "https://www.photoshelter.com/",
       "windowSize": "1100x600",
-      "show": true
+      "show": false
     }
   },
   "include": {
     "I": "./steps_file.js"
   },
   "bootstrap": false,
-  "mocha": {},
+  "mocha": {
+    "reporterOptions": {
+      "reportDir": "output"
+    }
+  },
   "name": "codeceptjs-photoshelter"
 }
