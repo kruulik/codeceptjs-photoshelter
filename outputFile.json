@@ -1,62 +1,26 @@
 CodeceptJS v0.5.1
-Using test root "/Volumes/Snow Leopard/Users/karoliskrulis/CodeceptJS/codeceptjs-photoshelter"
-
-Navigation check --
- See big yellow button
- • I am on page "/"
- • I see "SIGN UP NOW", ".signupCta"
- ✓ OK in 3371ms
-
- See main navigation
- • I am on page "/"
-   Within //*[@id="HeaderGlobal"]:
-   • Within //*[@id="HeaderGlobal"]: I see "FEATURES"
-   • Within //*[@id="HeaderGlobal"]: I see "TEMPLATES"
-   • Within //*[@id="HeaderGlobal"]: I see "IMAGES"
-   • Within //*[@id="HeaderGlobal"]: I see "PRICING"
-   • Within //*[@id="HeaderGlobal"]: I see "MORE"
-   • Within //*[@id="HeaderGlobal"]: I see "LOGIN"
- ✓ OK in 3492ms
+Using test root "/Users/karoliskrulis/GitHub/codeceptjs-photoshelter"
 
 Signup --
  Sign up now
-  • I am on page "/"
-  • I click ".signupCta"
-  • I wait "1"
-  • I grab attribute from "//*[@id="signupModal"]/div/div[2]/div/div/div[2]/iframe", "src"
-  • I wait "1"
-  • I am on page "https://www.photoshelter.com/signup/signup-embed/?TYPE=SINGLE"
-  • I wait "1"
-  • I fill field "U_FIRST_NAME", "Karolis"
-  • I fill field "U_LAST_NAME", "Krulis"
-  • I fill field "U_EMAIL", "karoliskrulis+92426PM@gmail.com"
-  • I fill field "U_PASSWORD", "my_password"
-  • I click ".next"
-  • I wait "2"
-  • I select option "ULD_REASON", "Back up my images"
-  • I click "#button_submit"
-  • I wait "2"
-  • I click ".cta"
- ✓ OK in 25602ms
-
-Upload --
- Upload an image
-  • I am on page "/mem/home/"
-  • I fill field "U_EMAIL", "karolis_test_@gmail.com"
-  • I fill field "U_PASSWORD", "my_password"
-  • I click "sign in"
-  • I wait "5"
-  • I click "//*[@id="navbar"]/ul[1]/li[3]"
-  • I wait "2"
-  • I click "//*[@id="navbar"]/ul[1]/li[3]/ul/li[2]/a"
-  • I wait "1"
-   Within //*[@id="Dialog_ClcGal_Create"]:
-   • Within //*[@id="Dialog_ClcGal_Create"]: I fill field "NAME", "4/11/2017"
-   • Within //*[@id="Dialog_ClcGal_Create"]: I press key "Enter"
-  • I attach file "#ubFile > div > input[type="file"]", "image/Karolis.gif"
-  • I wait "5"
-  • I see "Upload completed"
- ✓ OK in 26816ms
+ • I am on page "/"
+ • I click ".signupCta"
+ • I wait "1"
+ • I grab attribute from "//*[@id="signupModal"]/div/div[2]/div/div/div[2]/iframe", "src"
+ • I wait "1"
+ • I am on page "https://www.photoshelter.com/signup/signup-embed/?TYPE=SINGLE"
+ • I wait "1"
+ • I fill field "U_FIRST_NAME", "Karolis"
+ • I fill field "U_LAST_NAME", "Krulis"
+ • I fill field "U_EMAIL", "karoliskrulis+110819PM@gmail.com"
+ • I fill field "U_PASSWORD", "my_password"
+ • I click ".next"
+ • I wait "2"
+ • I select option "ULD_REASON", "Back up my images"
+ • I click "#button_submit"
+ • I wait "2"
+ • I click ".cta"
+ ✓ OK in 21133ms
 
 
-  OK  | 4 passed   // 59s
+  OK  | 1 passed   // 21s

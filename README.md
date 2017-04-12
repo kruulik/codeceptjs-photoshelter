@@ -1,5 +1,9 @@
 # Photoshelter Test
 
+## Setup
+
+Clone repo, cd to folder, run npm install-repo.
+
 Use [CodeceptJS](http://codecept.io/) to accomplish a series of steps on [Photoshelter's site](https://www.photoshelter.com/). 
 
 ## Tests
