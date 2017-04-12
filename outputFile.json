@@ -1,0 +1,22 @@
+CodeceptJS v0.5.1
+Using test root "/Volumes/Snow Leopard/Users/karoliskrulis/CodeceptJS/codeceptjs-photoshelter"
+
+Navigation check --
+ See big yellow button
+ • I am on page "/"
+ • I see "SIGN UP NOW", ".signupCta"
+ ✓ OK in 4482ms
+
+ See main navigation
+ • I am on page "/"
+   Within //*[@id="HeaderGlobal"]:
+   • Within //*[@id="HeaderGlobal"]: I see "FEATURES"
+   • Within //*[@id="HeaderGlobal"]: I see "TEMPLATES"
+   • Within //*[@id="HeaderGlobal"]: I see "IMAGES"
+   • Within //*[@id="HeaderGlobal"]: I see "PRICING"
+   • Within //*[@id="HeaderGlobal"]: I see "MORE"
+   • Within //*[@id="HeaderGlobal"]: I see "LOGIN"
+ ✓ OK in 3574ms
+
+
+  OK  | 2 passed   // 8s
